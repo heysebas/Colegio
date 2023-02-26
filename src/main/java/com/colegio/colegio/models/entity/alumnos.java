@@ -1,6 +1,6 @@
 package com.colegio.colegio.models.entity;
 
-public class alumnos {
+public class Alumnos {
 
     private String nombre;
     private String apellido;
@@ -9,16 +9,16 @@ public class alumnos {
     private String email;
     private String direccion;
     private int edad;
-    private String grado;
+    private String carrera;
     private double nota;
     
 
-    public alumnos() {
+    public Alumnos() {
     }
 
 
-    public alumnos(String nombre, String apellido, String cc, String telefono, String email, String direccion, int edad,
-            String grado, double nota) {
+    public Alumnos(String nombre, String apellido, String cc, String telefono, String email, String direccion, int edad,
+            String carrera, double nota) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.cc = cc;
@@ -26,7 +26,7 @@ public class alumnos {
         this.email = email;
         this.direccion = direccion;
         this.edad = edad;
-        this.grado = grado;
+        this.carrera = carrera;
         this.nota = nota;
     }
 
@@ -101,13 +101,13 @@ public class alumnos {
     }
 
 
-    public String getGrado() {
-        return grado;
+    public String getCarrera() {
+        return carrera;
     }
 
 
-    public void setGrado(String grado) {
-        this.grado = grado;
+    public void setCarrera(String carrera) {
+        this.carrera = carrera;
     }
 
 
@@ -119,6 +119,9 @@ public class alumnos {
     public void setNota(double nota) {
         this.nota = nota;
     }
+
+
+    
 
     
 
