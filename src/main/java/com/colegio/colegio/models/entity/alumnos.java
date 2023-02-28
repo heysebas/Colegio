@@ -11,6 +11,7 @@ public class Alumnos {
     private int edad;
     private String carrera;
     private double nota;
+    private String descrip;
     
 
     public Alumnos() {
